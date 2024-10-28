@@ -9,9 +9,11 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_s53x8mc', 'template_fwq8n7v', form.current, 'cXginQ40keRVEt1YV')
+        emailjs.sendForm('service_iwf6s1n', 'template_2tm2ahc', form.current, 'xupBAeuMfIo1yW6OS')
         e.target.reset();
     };
+
+
   
     return (
     <section className="contact section" id="contact">
@@ -27,7 +29,7 @@ const Contact = () => {
                         <HiOutlineMail className="contact__card-icon" />
                         
                         <h3 className="contact__card-title">Email</h3>
-                        <span className="contact__card-data">cyphrsylph@gmail.com</span>
+                        <span className="contact__card-data">shashanksharma1235999@gmail.com</span>
                         
                         <a href="mailto:cyphersylph@gmail.com" className="contact__button">
                             Write Me{" "} 
@@ -43,17 +45,17 @@ const Contact = () => {
                 <form ref={form} onSubmit={sendEmail} className="contact__form">
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Name</label>
-                        <input type="text" name="name" className="contact__form-input" placeholder="Type your name" />
+                        <input type="text" name="from_name" className="contact__form-input" placeholder="Type your name" />
                     </div>
 
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Email</label>
-                        <input type="email" name="email" className="contact__form-input" placeholder="Type your email" />
+                        <input type="email" name="from_email" className="contact__form-input" placeholder="Type your email" />
                     </div>
 
                     <div className="contact__form-div contact__form-area">
                         <label className="contact__form-tag">Project</label>
-                        <textarea name="project" cols="30" rows="10" className="contact__form-input" placeholder="Provide some project details..."></textarea>
+                        <textarea name="message" cols="30" rows="10" className="contact__form-input" placeholder="Provide some project details..."></textarea>
                     </div>
 
                     <button href="#contact" className="button button--flex">

@@ -98,7 +98,7 @@ const Services = () => {
             <div className="services__content">
                 <div>
                     <HiOutlineClipboardList className="services__icon" />
-                    <h3 className="services__title">Digital<br />Branding</h3>
+                    <h3 className="services__title">Personal<br />Web Development Tution </h3>
                 </div>
                 <span className="services__button" onClick={() => toggleTab(3)}>
                     View More
@@ -107,27 +107,27 @@ const Services = () => {
                 <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
                     <div className="services__modal-content">
                         <HiX onClick={() => toggleTab(0)} className="services__modal-close" />
-                        <h3 className="services__modal-title">Branding</h3>
+                        <h3 className="services__modal-title">Web Development </h3>
                         <p className="services__modal-description">
-                            Over 3 years experience in branding providing quality work.
+                            Over 3 years experience in development 
                         </p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <HiOutlineCheckCircle className="services__modal-icon" />
                                 <p className="services__modal-info">
-                                    Company logo and branding
+                                    MERN Stack development 
                                 </p>
                             </li>
                             <li className="services__modal-service">
                                 <HiOutlineCheckCircle className="services__modal-icon" />
                                 <p className="services__modal-info">
-                                    Custom website and landing page
+                                    React time project 
                                 </p>
                             </li>
                             <li className="services__modal-service">
                                 <HiOutlineCheckCircle className="services__modal-icon" />
                                 <p className="services__modal-info">
-                                    Design product mockups
+                                    New technology updates 
                                 </p>
                             </li>
                         </ul>

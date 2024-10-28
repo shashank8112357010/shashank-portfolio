@@ -10,15 +10,15 @@ const Backend = () => {
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
-                        <h3 className="skills__name">Java</h3>
-                        <span className="skills__level">Basic</span>
+                        <h3 className="skills__name">Java Script</h3>
+                        <span className="skills__level">Advance</span>
                     </div>
                 </div>
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
-                        <h3 className="skills__name">SpringBoot</h3>
-                        <span className="skills__level">Basic</span>
+                        <h3 className="skills__name">Node js </h3>
+                        <span className="skills__level">Advance</span>
                     </div>
                 </div>
                 <div className="skills__data">
@@ -40,8 +40,8 @@ const Backend = () => {
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
-                        <h3 className="skills__name">Node.js</h3>
-                        <span className="skills__level">Basic</span>
+                        <h3 className="skills__name">Mongo DB </h3>
+                        <span className="skills__level">Advance</span>
                     </div>
                 </div>
                 <div className="skills__data">

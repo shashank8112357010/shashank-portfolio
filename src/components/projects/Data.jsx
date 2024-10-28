@@ -7,21 +7,17 @@ export const projectsData = [
     {
         id: 1,
         image: Project1,
-        title: "Project 1",
-        category: "A",
+        title: "Cubetelecom",
+        category: "Agency",
+        link : "https://www.cubetelecom.com/"
     },
     {
         id: 2,
         image: Project2,
-        title: "Project 2",
-        category: "B",
-    },
-    {
-        id: 3,
-        image: Project3,
-        title: "Project 3",
-        category: "C",
-    },
+        title: "Goal Get Up",
+        category: "E Commerce",
+        link : "https://goalget-up.in/"
+    }
 ];
 
 export const projectsNav = [
@@ -29,12 +25,9 @@ export const projectsNav = [
         name: "All",
     },
     {
-        name: "A",
+        name: "E Commerce",
     },
     {
-        name: "B",
-    },
-    {
-        name: "C",
-    },
+        name: "Agency",
+    }
 ];
