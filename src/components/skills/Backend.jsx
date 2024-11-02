@@ -7,20 +7,21 @@ const Backend = () => {
         <h3 className="skills__title">Backend Developer</h3>
         <div className="skills__box">
             <div className="skills__group">
-                <div className="skills__data">
-                    <HiCheckBadge />
-                    <div>
-                        <h3 className="skills__name">Java Script</h3>
-                        <span className="skills__level">Advance</span>
-                    </div>
-                </div>
-                <div className="skills__data">
+            <div className="skills__data">
                     <HiCheckBadge />
                     <div>
                         <h3 className="skills__name">Node js </h3>
                         <span className="skills__level">Advance</span>
                     </div>
                 </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
+                        <h3 className="skills__name">Express Js </h3>
+                        <span className="skills__level">Advance</span>
+                    </div>
+                </div>
+               
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
