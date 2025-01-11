@@ -37,7 +37,7 @@ const Qualification = () => {
                                 <span className="qualification__subtitle">Lucknow Public School </span>
                                 <div className="qualification__calendar">
                                     <HiOutlineCalendar className="qualification__calendar-icon" />
-                                    2016-2027
+                                    2016-2017
                                 </div>
                             </div>
                             <div>
